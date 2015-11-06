@@ -1,0 +1,7 @@
+
+
+from Appli import *
+
+
+monAppli = Appli()
+
