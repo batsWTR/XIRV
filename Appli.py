@@ -6,7 +6,7 @@ class Appli:
 	def __init__(self):
 		self.ip = "aa"
 		self.port = "9999"
-		self.confFile
+		self.confFile = ""
 		self.fenetre = Tk()
 		self.fenetre.title("XIRV")
 		#self.fenetre.size("800x600")

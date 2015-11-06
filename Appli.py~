@@ -6,6 +6,7 @@ class Appli:
 	def __init__(self):
 		self.ip = "aa"
 		self.port = "9999"
+		self.confFile
 		self.fenetre = Tk()
 		self.fenetre.title("XIRV")
 		#self.fenetre.size("800x600")
@@ -40,6 +41,8 @@ class Appli:
 		self.port = self.entreePort.get()
 		print("IP: ",self.ip)
 		print("Port: ",self.port)
+	# Fichier de conf des variables IOCP
+	def LoadConfFile(self):
 		pass
 
 
